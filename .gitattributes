@@ -1,22 +1,24 @@
-# Ignore generated / platform-specific code for language stats
+# Ignore platform-specific and generated files for language stats
 
-# iOS / macOS
-ios/* linguist-vendored
+# Desktop folders
+windows/* linguist-vendored
+linux/* linguist-vendored
 macos/* linguist-vendored
 
-# Android
+# Mobile folders
+ios/* linguist-vendored
 android/* linguist-vendored
 
-# Linux / Windows
-linux/* linguist-vendored
-windows/* linguist-vendored
-
-# Flutter / Dart generated folders
-.build/ linguist-vendored
+# Flutter generated folders
 .dart_tool/ linguist-vendored
+build/ linguist-vendored
 .packages linguist-vendored
 pubspec.lock linguist-vendored
 
-# Misc
-*.iml linguist-vendored
+# IDE/editor files
 .idea/* linguist-vendored
+*.iml linguist-vendored
+.vscode/* linguist-vendored
+
+# Misc
+.metadata linguist-vendored
