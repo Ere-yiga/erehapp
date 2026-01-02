@@ -1,1 +1,2 @@
-Building a lil bio project
+Building a lil bio project as I make progress in learning Flutter
+
